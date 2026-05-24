@@ -1,0 +1,27 @@
+{
+  "name": "radar-family",
+  "version": "1.0.0",
+  "description": "PWA de geolocalización familiar bajo demanda",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "vapid-keys": "npx web-push generate-vapid-keys"
+  },
+  "keywords": [
+    "pwa",
+    "geolocation",
+    "family",
+    "tracking"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.10.0",
+    "uuid": "^14.0.0",
+    "web-push": "^3.6.7"
+  }
+}
